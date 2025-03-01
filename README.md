@@ -13,20 +13,22 @@ O conjunto de dados abrange informações de importação e exportação, inclui
 ## Estrutura dos Dados
 O arquivo contém 8 tabelas organizadas em SQLite. Abaixo estão as descrições dos principais campos:
 
-CO_ANO: Ano da operação comercial (1997 a 2021).
-CO_MES: Código do mês da operação comercial (1: Janeiro a 12: Dezembro).
-CO_NCM: Código NCM (Nomenclatura Comum Mercosul), utilizado para identificar produtos comercializados no Brasil e no Mercosul.
-CO_UNID: Código da Unidade de Medida Estatística, utilizado para padronizar a medição dos produtos (por exemplo, quilogramas, metros, litros, pares, toneladas, etc.).
-CO_PAIS: Código do país com o qual a operação comercial foi realizada (importação ou exportação).
-SG_UF_NCM: Sigla da Unidade Federativa (estado) de origem (na exportação) ou destino (na importação) da mercadoria.
-CO_VIA: Código que identifica o meio de transporte utilizado (aéreo, marítimo, rodoviário, ferroviário, entre outros).
-CO_URF: Código da Unidade da Receita Federal, responsável pela execução dos procedimentos aduaneiros.
-QT_ESTAT: Quantidade estatística do produto, expressa em unidades ou pesos (quilos, pares, dúzias, etc.).
-KG_LIQUIDO: Peso líquido da mercadoria, expresso em quilogramas, desconsiderando embalagem ou outros adicionais de transporte.
-VL_FOB: Valor FOB (Free on Board), indicando o preço da mercadoria em dólares americanos (US$) sob a modalidade FOB, onde o vendedor assume o custo de embarque e o comprador arca com o transporte e seguros pós-embarque.
-Tabelas Relacionadas
-NCM_UNIDADE: Relaciona cada NCM com sua unidade estatística correspondente.
-CO_ANO_MES: Tabela com o código de ano e mês das operações comerciais
+* ###### **CO_ANO:** Ano da operação comercial (1997 a 2021).
+* ###### **CO_MES:** Código do mês da operação comercial (1: Janeiro a 12: Dezembro).
+* ###### **CO_NCM:** Código NCM (Nomenclatura Comum Mercosul), utilizado para identificar produtos comercializados no Brasil e no Mercosul.
+* ###### **CO_UNID:** Código da Unidade de Medida Estatística, utilizado para padronizar a medição dos produtos (por exemplo, quilogramas, metros, litros, pares, toneladas, etc.).
+* ###### **CO_PAIS:** Código do país com o qual a operação comercial foi realizada (importação ou exportação).
+* ###### **SG_UF_NCM:** Sigla da Unidade Federativa (estado) de origem (na exportação) ou destino (na importação) da mercadoria.
+* ###### **CO_VIA:** Código que identifica o meio de transporte utilizado (aéreo, marítimo, rodoviário, ferroviário, entre outros).
+* ###### **CO_URF:** Código da Unidade da Receita Federal, responsável pela execução dos procedimentos aduaneiros.
+* ###### **QT_ESTAT:** Quantidade estatística do produto, expressa em unidades ou pesos (quilos, pares, dúzias, etc.).
+* ###### **KG_LIQUIDO:** Peso líquido da mercadoria, expresso em quilogramas, desconsiderando embalagem ou outros adicionais de transporte.
+
+* ###### **VL_FOB**: Valor FOB (Free on Board), indicando o preço da mercadoria em dólares americanos (US$) sob a modalidade FOB, onde o vendedor assume o custo de embarque e o comprador arca com o transporte e seguros pós-embarque.
+
+### Tabelas Relacionadas
+###### **NCM_UNIDADE:** Relaciona cada NCM com sua unidade estatística correspondente.
+###### **CO_ANO_MES:** Tabela com o código de ano e mês das operações comerciais
 
 ## Integrantes
 * Alexandre Guzmán Siácara
